@@ -1,0 +1,42 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(photo.jpeg);
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-align: center;
+}
+
+.data {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  width: auto;
+  height: 200px;
+}
+
+.box {
+  width: 25%;
+  height: 80%;
+}
+
+#location {
+  background-color: white;
+}
+
+#condition {
+  background-color: red;
+}
+
+#wind {
+  background-color: yellow;
+}
